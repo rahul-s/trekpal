@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TrekPal' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for TrekPal
+  pod 'Lightbox'
+  pod 'Alamofire'
+
+  target 'TrekPalTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TrekPalUITests' do
+    # Pods for testing
+  end
+
+end

@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D8C4A8774557A048D7B5BF2 /* Pods_TrekPalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E710F5CEB0F1D455B5D73AA9 /* Pods_TrekPalTests.framework */; };
+		611D6FE859D9FC1C832693DA /* Pods_TrekPal_TrekPalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B315CB26CE955C95ED90F14D /* Pods_TrekPal_TrekPalUITests.framework */; };
 		B7BC8B11248B6BCF00AA7918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BC8B10248B6BCF00AA7918 /* AppDelegate.swift */; };
 		B7BC8B13248B6BCF00AA7918 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BC8B12248B6BCF00AA7918 /* SceneDelegate.swift */; };
 		B7BC8B15248B6BCF00AA7918 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BC8B14248B6BCF00AA7918 /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		B7BC8B1D248B6BD200AA7918 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7BC8B1B248B6BD200AA7918 /* LaunchScreen.storyboard */; };
 		B7BC8B28248B6BD200AA7918 /* TrekPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BC8B27248B6BD200AA7918 /* TrekPalTests.swift */; };
 		B7BC8B33248B6BD200AA7918 /* TrekPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BC8B32248B6BD200AA7918 /* TrekPalUITests.swift */; };
+		D9795D371C269F5606D654FB /* Pods_TrekPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49908D2FA9457893D8CF425F /* Pods_TrekPal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		453C197305DCF89D20D92993 /* Pods-TrekPal-TrekPalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrekPal-TrekPalUITests.release.xcconfig"; path = "Target Support Files/Pods-TrekPal-TrekPalUITests/Pods-TrekPal-TrekPalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		49908D2FA9457893D8CF425F /* Pods_TrekPal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrekPal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		614DF23DC50CFA29D83F3640 /* Pods-TrekPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrekPal.release.xcconfig"; path = "Target Support Files/Pods-TrekPal/Pods-TrekPal.release.xcconfig"; sourceTree = "<group>"; };
+		741ED67A2BB44191AECB60A8 /* Pods-TrekPalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrekPalTests.release.xcconfig"; path = "Target Support Files/Pods-TrekPalTests/Pods-TrekPalTests.release.xcconfig"; sourceTree = "<group>"; };
+		B315CB26CE955C95ED90F14D /* Pods_TrekPal_TrekPalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrekPal_TrekPalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7BC8B0D248B6BCF00AA7918 /* TrekPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrekPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7BC8B10248B6BCF00AA7918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7BC8B12248B6BCF00AA7918 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		B7BC8B2E248B6BD200AA7918 /* TrekPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrekPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7BC8B32248B6BD200AA7918 /* TrekPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekPalUITests.swift; sourceTree = "<group>"; };
 		B7BC8B34248B6BD200AA7918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB00DF523035E9C5FE17CAC7 /* Pods-TrekPal-TrekPalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrekPal-TrekPalUITests.debug.xcconfig"; path = "Target Support Files/Pods-TrekPal-TrekPalUITests/Pods-TrekPal-TrekPalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB19066A7D52F19AD1B848D5 /* Pods-TrekPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrekPal.debug.xcconfig"; path = "Target Support Files/Pods-TrekPal/Pods-TrekPal.debug.xcconfig"; sourceTree = "<group>"; };
+		E710F5CEB0F1D455B5D73AA9 /* Pods_TrekPalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrekPalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F325BE072BBA6BB28797059D /* Pods-TrekPalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrekPalTests.debug.xcconfig"; path = "Target Support Files/Pods-TrekPalTests/Pods-TrekPalTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9795D371C269F5606D654FB /* Pods_TrekPal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D8C4A8774557A048D7B5BF2 /* Pods_TrekPalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				611D6FE859D9FC1C832693DA /* Pods_TrekPal_TrekPalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8842EC2282F7AA58B7240966 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49908D2FA9457893D8CF425F /* Pods_TrekPal.framework */,
+				B315CB26CE955C95ED90F14D /* Pods_TrekPal_TrekPalUITests.framework */,
+				E710F5CEB0F1D455B5D73AA9 /* Pods_TrekPalTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CB8F93707B560EC0C5E07CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB19066A7D52F19AD1B848D5 /* Pods-TrekPal.debug.xcconfig */,
+				614DF23DC50CFA29D83F3640 /* Pods-TrekPal.release.xcconfig */,
+				BB00DF523035E9C5FE17CAC7 /* Pods-TrekPal-TrekPalUITests.debug.xcconfig */,
+				453C197305DCF89D20D92993 /* Pods-TrekPal-TrekPalUITests.release.xcconfig */,
+				F325BE072BBA6BB28797059D /* Pods-TrekPalTests.debug.xcconfig */,
+				741ED67A2BB44191AECB60A8 /* Pods-TrekPalTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B7BC8B04248B6BCF00AA7918 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				B7BC8B26248B6BD200AA7918 /* TrekPalTests */,
 				B7BC8B31248B6BD200AA7918 /* TrekPalUITests */,
 				B7BC8B0E248B6BCF00AA7918 /* Products */,
+				8CB8F93707B560EC0C5E07CC /* Pods */,
+				8842EC2282F7AA58B7240966 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +139,12 @@
 		B7BC8B0F248B6BCF00AA7918 /* TrekPal */ = {
 			isa = PBXGroup;
 			children = (
+				B7BE656C248B703200B84164 /* Views */,
+				B7BE656B248B702A00B84164 /* Managers */,
+				B7BE656A248B702200B84164 /* Models */,
 				B7BC8B10248B6BCF00AA7918 /* AppDelegate.swift */,
 				B7BC8B12248B6BCF00AA7918 /* SceneDelegate.swift */,
-				B7BC8B14248B6BCF00AA7918 /* ViewController.swift */,
-				B7BC8B16248B6BCF00AA7918 /* Main.storyboard */,
 				B7BC8B19248B6BD200AA7918 /* Assets.xcassets */,
-				B7BC8B1B248B6BD200AA7918 /* LaunchScreen.storyboard */,
 				B7BC8B1E248B6BD200AA7918 /* Info.plist */,
 			);
 			path = TrekPal;
@@ -128,6 +168,62 @@
 			path = TrekPalUITests;
 			sourceTree = "<group>";
 		};
+		B7BE656A248B702200B84164 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B7BE656B248B702A00B84164 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B7BE656C248B703200B84164 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B7BE6570248B706D00B84164 /* ViewControllers */,
+				B7BE656F248B706400B84164 /* Storyboards */,
+				B7BE656E248B705D00B84164 /* Cells */,
+				B7BE656D248B704900B84164 /* Base */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B7BE656D248B704900B84164 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B7BE656E248B705D00B84164 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B7BE656F248B706400B84164 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B7BC8B16248B6BCF00AA7918 /* Main.storyboard */,
+				B7BC8B1B248B6BD200AA7918 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B7BE6570248B706D00B84164 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B7BC8B14248B6BCF00AA7918 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7BC8B37248B6BD200AA7918 /* Build configuration list for PBXNativeTarget "TrekPal" */;
 			buildPhases = (
+				FBDFA80C3C5EEBE28775366E /* [CP] Check Pods Manifest.lock */,
 				B7BC8B09248B6BCF00AA7918 /* Sources */,
 				B7BC8B0A248B6BCF00AA7918 /* Frameworks */,
 				B7BC8B0B248B6BCF00AA7918 /* Resources */,
+				81BAA01117431DCEF430764F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7BC8B3A248B6BD200AA7918 /* Build configuration list for PBXNativeTarget "TrekPalTests" */;
 			buildPhases = (
+				1B915C44B4A1674605330CEE /* [CP] Check Pods Manifest.lock */,
 				B7BC8B1F248B6BD200AA7918 /* Sources */,
 				B7BC8B20248B6BD200AA7918 /* Frameworks */,
 				B7BC8B21248B6BD200AA7918 /* Resources */,
@@ -170,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7BC8B3D248B6BD200AA7918 /* Build configuration list for PBXNativeTarget "TrekPalUITests" */;
 			buildPhases = (
+				9BF5B1276889147E4AF063A2 /* [CP] Check Pods Manifest.lock */,
 				B7BC8B2A248B6BD200AA7918 /* Sources */,
 				B7BC8B2B248B6BD200AA7918 /* Frameworks */,
 				B7BC8B2C248B6BD200AA7918 /* Resources */,
+				5682ADC824303DC5896D19DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +354,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B915C44B4A1674605330CEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrekPalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5682ADC824303DC5896D19DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrekPal-TrekPalUITests/Pods-TrekPal-TrekPalUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrekPal-TrekPalUITests/Pods-TrekPal-TrekPalUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrekPal-TrekPalUITests/Pods-TrekPal-TrekPalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81BAA01117431DCEF430764F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrekPal/Pods-TrekPal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TrekPal/Pods-TrekPal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TrekPal/Pods-TrekPal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BF5B1276889147E4AF063A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrekPal-TrekPalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBDFA80C3C5EEBE28775366E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrekPal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B7BC8B09248B6BCF00AA7918 /* Sources */ = {
@@ -432,6 +636,7 @@
 		};
 		B7BC8B38248B6BD200AA7918 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB19066A7D52F19AD1B848D5 /* Pods-TrekPal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +655,7 @@
 		};
 		B7BC8B39248B6BD200AA7918 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 614DF23DC50CFA29D83F3640 /* Pods-TrekPal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +674,7 @@
 		};
 		B7BC8B3B248B6BD200AA7918 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F325BE072BBA6BB28797059D /* Pods-TrekPalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +697,7 @@
 		};
 		B7BC8B3C248B6BD200AA7918 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741ED67A2BB44191AECB60A8 /* Pods-TrekPalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +720,7 @@
 		};
 		B7BC8B3E248B6BD200AA7918 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB00DF523035E9C5FE17CAC7 /* Pods-TrekPal-TrekPalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +741,7 @@
 		};
 		B7BC8B3F248B6BD200AA7918 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453C197305DCF89D20D92993 /* Pods-TrekPal-TrekPalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
