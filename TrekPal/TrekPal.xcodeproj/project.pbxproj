@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7BC8B11248B6BCF00AA7918 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BC8B10248B6BCF00AA7918 /* AppDelegate.swift */; };
+		B7BC8B13248B6BCF00AA7918 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BC8B12248B6BCF00AA7918 /* SceneDelegate.swift */; };
+		B7BC8B15248B6BCF00AA7918 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BC8B14248B6BCF00AA7918 /* ViewController.swift */; };
+		B7BC8B18248B6BCF00AA7918 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7BC8B16248B6BCF00AA7918 /* Main.storyboard */; };
+		B7BC8B1A248B6BD200AA7918 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7BC8B19248B6BD200AA7918 /* Assets.xcassets */; };
+		B7BC8B1D248B6BD200AA7918 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7BC8B1B248B6BD200AA7918 /* LaunchScreen.storyboard */; };
+		B7BC8B28248B6BD200AA7918 /* TrekPalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BC8B27248B6BD200AA7918 /* TrekPalTests.swift */; };
+		B7BC8B33248B6BD200AA7918 /* TrekPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BC8B32248B6BD200AA7918 /* TrekPalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7BC8B24248B6BD200AA7918 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7BC8B05248B6BCF00AA7918 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7BC8B0C248B6BCF00AA7918;
+			remoteInfo = TrekPal;
+		};
+		B7BC8B2F248B6BD200AA7918 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7BC8B05248B6BCF00AA7918 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7BC8B0C248B6BCF00AA7918;
+			remoteInfo = TrekPal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7BC8B0D248B6BCF00AA7918 /* TrekPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrekPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BC8B10248B6BCF00AA7918 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7BC8B12248B6BCF00AA7918 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B7BC8B14248B6BCF00AA7918 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7BC8B17248B6BCF00AA7918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7BC8B19248B6BD200AA7918 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7BC8B1C248B6BD200AA7918 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7BC8B1E248B6BD200AA7918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7BC8B23248B6BD200AA7918 /* TrekPalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrekPalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BC8B27248B6BD200AA7918 /* TrekPalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekPalTests.swift; sourceTree = "<group>"; };
+		B7BC8B29248B6BD200AA7918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7BC8B2E248B6BD200AA7918 /* TrekPalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrekPalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BC8B32248B6BD200AA7918 /* TrekPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrekPalUITests.swift; sourceTree = "<group>"; };
+		B7BC8B34248B6BD200AA7918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7BC8B0A248B6BCF00AA7918 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BC8B20248B6BD200AA7918 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BC8B2B248B6BD200AA7918 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7BC8B04248B6BCF00AA7918 = {
+			isa = PBXGroup;
+			children = (
+				B7BC8B0F248B6BCF00AA7918 /* TrekPal */,
+				B7BC8B26248B6BD200AA7918 /* TrekPalTests */,
+				B7BC8B31248B6BD200AA7918 /* TrekPalUITests */,
+				B7BC8B0E248B6BCF00AA7918 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7BC8B0E248B6BCF00AA7918 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7BC8B0D248B6BCF00AA7918 /* TrekPal.app */,
+				B7BC8B23248B6BD200AA7918 /* TrekPalTests.xctest */,
+				B7BC8B2E248B6BD200AA7918 /* TrekPalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7BC8B0F248B6BCF00AA7918 /* TrekPal */ = {
+			isa = PBXGroup;
+			children = (
+				B7BC8B10248B6BCF00AA7918 /* AppDelegate.swift */,
+				B7BC8B12248B6BCF00AA7918 /* SceneDelegate.swift */,
+				B7BC8B14248B6BCF00AA7918 /* ViewController.swift */,
+				B7BC8B16248B6BCF00AA7918 /* Main.storyboard */,
+				B7BC8B19248B6BD200AA7918 /* Assets.xcassets */,
+				B7BC8B1B248B6BD200AA7918 /* LaunchScreen.storyboard */,
+				B7BC8B1E248B6BD200AA7918 /* Info.plist */,
+			);
+			path = TrekPal;
+			sourceTree = "<group>";
+		};
+		B7BC8B26248B6BD200AA7918 /* TrekPalTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7BC8B27248B6BD200AA7918 /* TrekPalTests.swift */,
+				B7BC8B29248B6BD200AA7918 /* Info.plist */,
+			);
+			path = TrekPalTests;
+			sourceTree = "<group>";
+		};
+		B7BC8B31248B6BD200AA7918 /* TrekPalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7BC8B32248B6BD200AA7918 /* TrekPalUITests.swift */,
+				B7BC8B34248B6BD200AA7918 /* Info.plist */,
+			);
+			path = TrekPalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7BC8B0C248B6BCF00AA7918 /* TrekPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7BC8B37248B6BD200AA7918 /* Build configuration list for PBXNativeTarget "TrekPal" */;
+			buildPhases = (
+				B7BC8B09248B6BCF00AA7918 /* Sources */,
+				B7BC8B0A248B6BCF00AA7918 /* Frameworks */,
+				B7BC8B0B248B6BCF00AA7918 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrekPal;
+			productName = TrekPal;
+			productReference = B7BC8B0D248B6BCF00AA7918 /* TrekPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7BC8B22248B6BD200AA7918 /* TrekPalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7BC8B3A248B6BD200AA7918 /* Build configuration list for PBXNativeTarget "TrekPalTests" */;
+			buildPhases = (
+				B7BC8B1F248B6BD200AA7918 /* Sources */,
+				B7BC8B20248B6BD200AA7918 /* Frameworks */,
+				B7BC8B21248B6BD200AA7918 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7BC8B25248B6BD200AA7918 /* PBXTargetDependency */,
+			);
+			name = TrekPalTests;
+			productName = TrekPalTests;
+			productReference = B7BC8B23248B6BD200AA7918 /* TrekPalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7BC8B2D248B6BD200AA7918 /* TrekPalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7BC8B3D248B6BD200AA7918 /* Build configuration list for PBXNativeTarget "TrekPalUITests" */;
+			buildPhases = (
+				B7BC8B2A248B6BD200AA7918 /* Sources */,
+				B7BC8B2B248B6BD200AA7918 /* Frameworks */,
+				B7BC8B2C248B6BD200AA7918 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7BC8B30248B6BD200AA7918 /* PBXTargetDependency */,
+			);
+			name = TrekPalUITests;
+			productName = TrekPalUITests;
+			productReference = B7BC8B2E248B6BD200AA7918 /* TrekPalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7BC8B05248B6BCF00AA7918 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Rahul Shettigar";
+				TargetAttributes = {
+					B7BC8B0C248B6BCF00AA7918 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					B7BC8B22248B6BD200AA7918 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = B7BC8B0C248B6BCF00AA7918;
+					};
+					B7BC8B2D248B6BD200AA7918 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = B7BC8B0C248B6BCF00AA7918;
+					};
+				};
+			};
+			buildConfigurationList = B7BC8B08248B6BCF00AA7918 /* Build configuration list for PBXProject "TrekPal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7BC8B04248B6BCF00AA7918;
+			productRefGroup = B7BC8B0E248B6BCF00AA7918 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7BC8B0C248B6BCF00AA7918 /* TrekPal */,
+				B7BC8B22248B6BD200AA7918 /* TrekPalTests */,
+				B7BC8B2D248B6BD200AA7918 /* TrekPalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7BC8B0B248B6BCF00AA7918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BC8B1D248B6BD200AA7918 /* LaunchScreen.storyboard in Resources */,
+				B7BC8B1A248B6BD200AA7918 /* Assets.xcassets in Resources */,
+				B7BC8B18248B6BCF00AA7918 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BC8B21248B6BD200AA7918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BC8B2C248B6BD200AA7918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7BC8B09248B6BCF00AA7918 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BC8B15248B6BCF00AA7918 /* ViewController.swift in Sources */,
+				B7BC8B11248B6BCF00AA7918 /* AppDelegate.swift in Sources */,
+				B7BC8B13248B6BCF00AA7918 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BC8B1F248B6BD200AA7918 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BC8B28248B6BD200AA7918 /* TrekPalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BC8B2A248B6BD200AA7918 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7BC8B33248B6BD200AA7918 /* TrekPalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7BC8B25248B6BD200AA7918 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7BC8B0C248B6BCF00AA7918 /* TrekPal */;
+			targetProxy = B7BC8B24248B6BD200AA7918 /* PBXContainerItemProxy */;
+		};
+		B7BC8B30248B6BD200AA7918 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7BC8B0C248B6BCF00AA7918 /* TrekPal */;
+			targetProxy = B7BC8B2F248B6BD200AA7918 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7BC8B16248B6BCF00AA7918 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7BC8B17248B6BCF00AA7918 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7BC8B1B248B6BD200AA7918 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7BC8B1C248B6BD200AA7918 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7BC8B35248B6BD200AA7918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7BC8B36248B6BD200AA7918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7BC8B38248B6BD200AA7918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JV4TN5AHQ8;
+				INFOPLIST_FILE = TrekPal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahulsh.TrekPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7BC8B39248B6BD200AA7918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JV4TN5AHQ8;
+				INFOPLIST_FILE = TrekPal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahulsh.TrekPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7BC8B3B248B6BD200AA7918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JV4TN5AHQ8;
+				INFOPLIST_FILE = TrekPalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahulsh.TrekPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrekPal.app/TrekPal";
+			};
+			name = Debug;
+		};
+		B7BC8B3C248B6BD200AA7918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JV4TN5AHQ8;
+				INFOPLIST_FILE = TrekPalTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahulsh.TrekPalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrekPal.app/TrekPal";
+			};
+			name = Release;
+		};
+		B7BC8B3E248B6BD200AA7918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JV4TN5AHQ8;
+				INFOPLIST_FILE = TrekPalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahulsh.TrekPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrekPal;
+			};
+			name = Debug;
+		};
+		B7BC8B3F248B6BD200AA7918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JV4TN5AHQ8;
+				INFOPLIST_FILE = TrekPalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rahulsh.TrekPalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrekPal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7BC8B08248B6BCF00AA7918 /* Build configuration list for PBXProject "TrekPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7BC8B35248B6BD200AA7918 /* Debug */,
+				B7BC8B36248B6BD200AA7918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7BC8B37248B6BD200AA7918 /* Build configuration list for PBXNativeTarget "TrekPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7BC8B38248B6BD200AA7918 /* Debug */,
+				B7BC8B39248B6BD200AA7918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7BC8B3A248B6BD200AA7918 /* Build configuration list for PBXNativeTarget "TrekPalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7BC8B3B248B6BD200AA7918 /* Debug */,
+				B7BC8B3C248B6BD200AA7918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7BC8B3D248B6BD200AA7918 /* Build configuration list for PBXNativeTarget "TrekPalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7BC8B3E248B6BD200AA7918 /* Debug */,
+				B7BC8B3F248B6BD200AA7918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7BC8B05248B6BCF00AA7918 /* Project object */;
+}
